@@ -132,7 +132,7 @@ def parse_args():
         "--reg_rate",
         dest="reg_rate",
         type=float,
-        default=0.02,
+        default=0.03,
         help="Regularization rate for logistic regression",
     )
     parser.add_argument(
